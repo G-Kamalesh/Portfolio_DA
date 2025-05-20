@@ -45,13 +45,11 @@ if st.session_state['page'] == 'Home':
     #------------------------------------------------------------------------------------------------------------------
     banner = st.container()
     with banner:
-        st.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\banner.png",
-                use_container_width=True)
+        st.image("assets\banner.png",use_container_width=True)
 
     left, middle, right = st.columns([0.2,0.4,0.2],gap="small",vertical_alignment="top",border=False)
 
-    left.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\profile-pic (4).png",
-            width=150)
+    left.image("assets\profile-pic (4).png",width=150)
     with middle:
         st.title("Kamaleashwar G")
         st.subheader("Data Analyst")
@@ -87,39 +85,27 @@ Let’s connect and explore how data can tell better stories and drive smarter d
     st.markdown("<h2 style='text-align: center;'>Skills</h2>", unsafe_allow_html=True)
     cat1, icon1,icon2,icon3,icon4,icon5= st.columns([2,1,1,1,1,1],gap="small",vertical_alignment="top")
     cat1.subheader("Languages")
-    icon1.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\python.png",
-                caption="Python")
-    icon2.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\sql.png",
-                caption="SQL")
+    icon1.image("assets\python.png",caption="Python")
+    icon2.image("assets\sql.png",caption="SQL")
 
     cat2,icon6,icon7,icon8,icon9,icon10 = st.columns([2,1,1,1,1,1],gap="small",vertical_alignment="top")
     cat2.subheader("Tools")
-    icon6.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\power_bi.png",
-            caption="Power BI")
-    icon7.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\tableau.png",
-                caption="Tableau")
-    icon8.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\excel.png",
-                caption="Excel")
-    icon9.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\streamlit.png",
-                caption="Streamlit")
+    icon6.image("assets\power_bi.png",caption="Power BI")
+    icon7.image("assets\tableau.png",caption="Tableau")
+    icon8.image("assets\excel.png",caption="Excel")
+    icon9.image("assets\streamlit.png",caption="Streamlit")
 
     cat3, icon11,icon12,icon13,icon14,icon15 = st.columns([2,1,1,1,1,1],gap="small",vertical_alignment="top")
     cat3.subheader("Libraries")
-    icon11.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\matplotlib.png",
-                caption="Matplotlib")
-    icon12.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\pandas.png",
-                caption="Pandas")
-    icon13.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\plotly.png",
-                caption="Plotly")
-    icon14.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\numpy.png",
-                caption="Numpy")
+    icon11.image("assets\matplotlib.png",caption="Matplotlib")
+    icon12.image("assets\pandas.png",caption="Pandas")
+    icon13.image("assets\plotly.png",caption="Plotly")
+    icon14.image("assets\numpy.png",caption="Numpy")
 
     cat4, icon16,icon17,icon18,icon19,icon20 = st.columns([2,1,1,1,1,1],gap="small",vertical_alignment="top")
     cat4.subheader("Databases")
-    icon16.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\mongodb.png",
-                caption="MongoDB")
-    icon17.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\mysql.png",
-                caption="MySql")
+    icon16.image("assets\mongodb.png",caption="MongoDB")
+    icon17.image("assets\mysql.png",caption="MySql")
 
     st.divider()
     #---------------------------------------------------------------------------------------------------------------------
@@ -130,8 +116,7 @@ Let’s connect and explore how data can tell better stories and drive smarter d
 
     
     with side1.container(border=True):
-        st.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\dashboard_snapshot.JPG",
-            width=400)
+        st.image("assets\dashboard_snapshot.JPG",width=400)
         s1,s2,s3 = st.columns([1,0.5,1],gap="small",vertical_alignment="top")
         s1.badge("Zoho Analytics",color="red")
         s2.badge("SQL",color="gray")
@@ -294,8 +279,7 @@ if st.session_state['page'] == 'Explanation':
                     \nFrom overall attendance trends to individual engagement levels, it allows teams to not just monitor, 
                     but **understand and improve** intern participation. Whether you're an HR leader or a team mentor, this 
                     dashboard puts the right information at your fingertips""")
-        st.image(r"K:\Study material MBA\documents\DataScience\student\Streamlit\New Portfolio\assets\d2.png",
-                 caption="Interns Attendance Dashboard")
+        st.image("assets\d2.png",caption="Interns Attendance Dashboard")
         
                 # Insights Deep Dive
         st.header("Insights Deep Dive")
