@@ -1,4 +1,4 @@
-# 🧑‍💼 Kamalesh's Data Analyst Portfolio
+# 🧑‍💼 Kamalesh's Jr Data Scientist/Data Analyst Portfolio
 Welcome to my interactive Data Analyst portfolio built using Streamlit! This portfolio showcases my data projects, visualizations, technical skills, and professional experience—all in one place.
 
 🚀 Live Portfolio
